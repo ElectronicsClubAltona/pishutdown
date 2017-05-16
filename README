@@ -1,3 +1,6 @@
 This is a helper application to offer shutdown options to the user.
 
 To build, run autogen.sh, then ./configure and make.
+
+maybe install cppcheck for lint check
+
