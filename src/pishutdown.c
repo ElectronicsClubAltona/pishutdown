@@ -13,6 +13,9 @@
 
 #define MIN_WIDTH 275
 
+//   http://stackoverflow.com/questions/5873402/is-sscanf-considered-safe-to-use
+// 16.05.2017
+
 static void get_string (char *cmd, char *name)
 {
     FILE *fp = popen (cmd, "r");
