@@ -20,12 +20,12 @@ static void get_string (char *cmd, char *name)
 {
     FILE *fp = popen (cmd, "r");
     char buf[128];
-
+	int res;
     name[0] = 0;
     if (fp == NULL) return;
     if (fgets (buf, sizeof (buf) - 1, fp) != NULL)
     {
-        sscanf (buf, "%s", name);
+        res = sscanf (buf, "%s", name);
     }
     pclose (fp);
 }

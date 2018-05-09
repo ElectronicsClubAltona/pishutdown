@@ -4,3 +4,9 @@ To build, run autogen.sh, then ./configure and make.
 
 maybe install cppcheck for lint check
 
+An example of a GTK application for use on LXDE. It is intended a.f.a.i.k. to be built and executed on the Raspberry Pi NOT as a remote shutdown tool.
+
+Seems to be missing : /usr/share/raspberrypi-artwork/raspitr.png
+
+Instructive anyway to see the errors produced by make and lint ...
+
